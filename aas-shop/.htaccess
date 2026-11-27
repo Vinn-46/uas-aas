@@ -1,0 +1,8 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^(app|storage|vendor)(/.*)?$ - [F,L]
+
+<FilesMatch "(^\.|composer\.(json|lock))">
+    Require all denied
+</FilesMatch>   

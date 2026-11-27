@@ -1,0 +1,8 @@
+/vendor/
+.env
+/storage/logs/*
+/storage/bukti_bayar/*
+/storage/temp_pdf/*
+/public/uploads/profil/*
+/public/uploads/barang/*
+!.gitkeep
